@@ -4,6 +4,10 @@ body {
     font-family:'League Spartan', sans-serif;
     padding: 0;
     margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 header {
@@ -201,8 +205,6 @@ img {
 .cont-p {
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start; */
-    text-align: left;
     font-size: smaller;
     font-family: 'Libre Baskerville', serif; 
     padding-bottom: 16em;
