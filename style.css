@@ -203,6 +203,8 @@ img {
     flex-direction: column;
     align-items: flex-start;
     font-size: smaller;
-    font-family: 'Libre Baskerville', serif;
-    
+    font-family: 'Libre Baskerville', serif; 
+    padding-bottom: 16em;
 }
+
+    
