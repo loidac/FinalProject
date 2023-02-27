@@ -2,12 +2,12 @@ let slideIndex = 1;
 showSlides(slideIndex);
 
 // next/previous controls
-function plusslides(n) {
+function plusSlides(n) {
     showSlides(slideIndex += n);
 }
 
 // Thumbnail image controls
-function currentslide(n) {
+function currentSlide(n) {
     showSlides(slideIndex = n);
 }
 
