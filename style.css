@@ -174,11 +174,11 @@ img {
     width: 33%;
 }
 
-.fam-pix {
+/* .fam-pix {
     position: relative;
     filter: drop-shadow(0 0 10px);
     perspective: 100px;
-}
+} */
 
 
 /* contact-page styling*/
@@ -222,4 +222,76 @@ img {
     padding-bottom: 16em;
 }
 
-    
+    /* About page carousel styling  */
+.fampix {
+    box-sizing: border-box;
+    position: relative;
+    }
+    /* Position the image container (needed to position the left and right arrows)- see above */
+.mySlides {
+    display: none;
+}
+/* add a pointer when hovering over the thumbnail images */
+.cursor{
+    cursor: pointer;
+}
+
+/* next and previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+/* position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 00 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* Number text 1/3 etc */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px, 12px;
+    position: absolute;
+    top: 0;
+}
+/* container for image text */
+.caption-fampix {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* 3 columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add transparency effect for thumbnail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active, .demo:hover {
+    opacity: 1;
+}
