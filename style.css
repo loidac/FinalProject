@@ -162,7 +162,7 @@ img {
     flex-direction: row;
 }
 
-.top{
+/* .top{
     width: 33%;
 }
 
@@ -172,7 +172,7 @@ img {
 
 .bottom-right {
     width: 33%;
-}
+} */
 
 /* .fam-pix {
     position: relative;
@@ -223,10 +223,14 @@ img {
 }
 
     /* About page carousel styling  */
+
 .fampix {
     box-sizing: border-box;
     position: relative;
     }
+img {
+    vertical-align: middle;
+}
     /* Position the image container (needed to position the left and right arrows)- see above */
 .mySlides {
     display: none;
