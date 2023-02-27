@@ -232,7 +232,7 @@ img {
     vertical-align: middle;
 }
     /* Position the image container (needed to position the left and right arrows)- see above */
-.mySlides {
+.picSlides {
     display: none;
 }
 /* add a pointer when hovering over the thumbnail images */
@@ -258,7 +258,7 @@ img {
 /* position the "next button" to the right */
 .next {
     right: 0;
-    border-radius: 3px 00 3px;
+    border-radius: 3px 0 0 3px;
 }
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
@@ -268,7 +268,7 @@ img {
 .numbertext {
     color: #f2f2f2;
     font-size: 12px;
-    padding: 8px, 12px;
+    padding: 8px 12px;
     position: absolute;
     top: 0;
 }
