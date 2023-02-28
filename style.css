@@ -162,6 +162,15 @@ img {
     flex-direction: row;
 }
 
+.l-side {
+    width: 50%;
+    /* height: 80vh; */
+}
+.r-side {
+    width: 50%;
+    /* height: 100vh; */
+}
+
 /* .top{
     width: 33%;
 }
@@ -227,6 +236,9 @@ img {
 .fampix {
     box-sizing: border-box;
     position: relative;
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start; */
     }
 img {
     vertical-align: middle;
@@ -254,6 +266,7 @@ img {
     border-radius: 0 3px 3px 0;
     user-select: none;
     -webkit-user-select: none;
+
 }
 /* position the "next button" to the right */
 .next {
@@ -275,9 +288,10 @@ img {
 /* container for image text */
 .caption-fampix {
     text-align: center;
-    background-color: #222;
+    background-color: #010000;
     padding: 2px 16px;
     color: white;
+    font-size: .5em;
 }
 
 .row:after {
@@ -294,6 +308,7 @@ img {
 /* Add transparency effect for thumbnail images */
 .demo {
     opacity: 0.6;
+    
 }
 
 .active, .demo:hover {
