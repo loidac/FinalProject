@@ -43,6 +43,11 @@ ul {
     border-radius: 50%;
 }
 
+.abt-logo {
+    width: 5%;
+    border-radius: 60%;
+}
+
 li {
     display: inline-block;
     padding-right: 10px;
