@@ -38,6 +38,11 @@ ul {
     position: sticky;
 }
 
+.logo {
+    width: 5%;
+    border-radius: 50%;
+}
+
 li {
     display: inline-block;
     padding-right: 10px;
