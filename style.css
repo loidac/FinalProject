@@ -8,6 +8,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    /* background-blend-mode: lighten;  */
+    /* background-color: hsla(0, 83%, 45%, 0.1); */
 }
 
 header {
@@ -86,10 +88,11 @@ aside {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-image: url(assets/background-petals.jpg);
+    /* background-image: url(assets/background-petals.jpg); */
     /* background-color: #dfaad4; */
     min-height: 100vh;
-    color: rgb(216, 37, 133);
+    /* color: rgb(216, 37, 133); */
+    color: #382E33;
 }
 
 .intro {
@@ -114,7 +117,7 @@ h1 {
 }
 
 p {
-    font-family: 'Libre Baskerville', serif;
+    /* font-family: 'Libre Baskerville', serif; */
     font-size: 1.8em;
     /* font-weight: bold; */
     padding-left: 60px;
@@ -137,7 +140,7 @@ p {
 }
 
 .comps-link {
-    color: rgb(193, 47, 115);
+    color: #382E33;
     font-size: 1.7em;
     font-weight: bolder; 
     margin-left: 70px;
@@ -159,6 +162,7 @@ a img{
 
 .copyright {
     padding-top: 10px;
+    color: white;
 }
 
 .socmed {
@@ -477,4 +481,17 @@ input[type=text], select, textarea {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+  }
+
+  .new-contact-main {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .main-contact-l {
+    width: 50%;
+  }
+
+  .main-contact-r {
+    width: 50%;
   }
