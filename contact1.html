@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan&family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Title on L-top corner, R-top corner home, about me, projects, contact me:: source NEEDED -->
+    <header>
+
+        <img src="assets.final project" alt="loida-logo">
+
+        <nav>
+            <ul>
+                <li><a class="nav-head" href="index.html">Home</a></li>
+                <li><a class="nav-head" href="about.html">About</a></li>
+                <li><a class="nav-head" href="project.html">Projects</a></li>
+                <li><a class="nav-head" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main content= intro; my pic; skills; experience; education/training/cert; FB, LI, insta icons :: links NEEDED-->
+    <main>
+        <div class="new-contact-main">
+            <div class="main-contact-l">
+                <img src="assets/contactme.png" alt="personal message">
+            </div>
+            <div class="main-contact-r">
+
+                <form action="https://formspree.io/f/xeqwzqjb" method="post">
+            
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                    </select>
+                
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+            
+                </form>
+            </div>
+        </div>
+
+          
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="copyright">
+            &copy;  Loida C 2023. All rights reserved.
+        </div>
+        <div class="icons-socmed">
+            <a href="https://www.linkedin.com/in/loida-christensen/">
+                <!-- <i class="fa-brands fa-linkedin"></i> -->
+                <img class="socmed" src="assets/linkedin.svg" alt="linkedin-logo">
+            </a>
+            <a href="https://github.com/loidac">
+                <!-- <i class="fa-brands fa-github" = these things didn't work></i> -->
+                <img class="socmed" src="assets/github.svg" alt="github-logo">
+            </a>
+            <a href="https://www.facebook.com/loidz.tc">
+                <img class="socmed" src="assets/square-facebook.svg" alt="facebook-logo">
+            </a>
+            <a href="https://www.instagram.com/loidatc/">
+                <img class="socmed" src="assets/icons8-instagram.svg" alt="instagram-logo">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
