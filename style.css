@@ -17,7 +17,9 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #382E33;
+    background-color: rgb(72, 10, 48);
+    /* background-color: #FF4785; */
+    /* background-color: #382E33; */
     /* background-image: url(assets/background-feathers.jpg); */
 }
 
@@ -27,7 +29,8 @@ a {
 }
 
 .nav-head:hover {
-    color: #FF4785;
+    /* color: #FF4785; */
+    color: #382E33;
 }
 
 ul {
@@ -42,20 +45,8 @@ ul {
 }
 
 .logo {
-    width: 45px;
-    /* border-radius: 50%; */
-    padding: 10px 5px 10px 24px;
-  
-}
-
-.abt-logo {
-    width: 5%;
-    border-radius: 60%;
-}
-
-.logo10 {
-    width: 5%;
-    border-radius: 50%;
+    width: 15%;
+    padding: 5px;
 }
 
 li {
@@ -92,7 +83,8 @@ aside {
     /* background-color: #dfaad4; */
     min-height: 100vh;
     /* color: rgb(216, 37, 133); */
-    color: #382E33;
+    /* color: #382E33; */
+    color: rgb(72, 10, 48);
 }
 
 .intro {
@@ -118,12 +110,20 @@ h1 {
 
 p {
     /* font-family: 'Libre Baskerville', serif; */
-    font-size: 1.8em;
-    /* font-weight: bold; */
+        /* font-weight: bold; */
+    /* font-size: 1.8em;
     padding-left: 60px;
     padding-right: 10px;
     margin-top: 10px;
-    text-align: center
+    text-align: center */
+}
+
+.p-index {
+    font-size: 1.8em;
+    padding-left: 30px;
+    font-size: 1.9em;
+    text-align: center;
+    
 }
 
 .comps {
@@ -136,7 +136,7 @@ p {
 }
 
 .comps ul li a:hover {
-    background-color: white;
+    background-color: #FF4785;
 }
 
 .comps-link {
@@ -169,6 +169,9 @@ a img{
     margin-right: 10px;
 }
 
+.icons-socmed {
+    padding-bottom: 10px;
+}
 /* responsive styling for index-html */
 
 /* @media (max-width: 40px) {
@@ -190,24 +193,22 @@ img {
     flex-direction: row;
 }
 
-.about-intro {
-    text-align: center;
-}
-
 .l-side {
     width: 50%;
+    padding: 10px 5px 10px 10px;
     /* height: 80vh; */
 }
 .r-side {
     width: 50%;
     /* height: 100vh; */
-    padding-left: 2%;
+    padding-left: 5px 5x 10px 5px;
 }
 
 .p-about {
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: justify;
     padding-right: 30px;
+    padding-left: 60px;
 }
 
 .resume {
@@ -216,19 +217,26 @@ img {
 .abt-me {
     display: flex;
     /* flex-direction: column; */
-    padding-left: 30px;
+    padding-left: 60px;
+    font-size: 1.4em;
     
 }
 
 .dabble1 {
     display: flex;
     flex-direction: row;
-    padding-left: 30px;
+    padding-left: 60px;
+    font-size: 1.4em;
 }
 
 .dabble-list {
-    font-family:'Libre Baskerville', serif ;
-    padding-left: 30px;
+    font-size: 1.3em;
+    padding: 5px!important;
+    border: rgb(194, 31, 131);
+    /* border: #FF4785; */
+    border-width: 2px;
+    border-style: solid;
+    margin: 10px 10px 10px 20px;
 }
 /* .top{
     width: 33%;
@@ -276,7 +284,7 @@ img {
     height: 50px;
 }
 
-.sub-btn {
+/* .sub-btn {
     display: flex;
     flex-direction: row;
     margin-left: 20px;
@@ -294,7 +302,7 @@ img {
 
 .contact-form {
     font-family: 'Libre Baskerville', serif;
-}
+} */
 
     /* About page carousel styling  */
 
@@ -367,8 +375,7 @@ img {
 }
 .caption-display-bottomright {
     position: absolute;
-    bottom: 83px;
-    /* top: 420px; */
+    bottom: 84px;
     right: 0;
 
 
@@ -491,8 +498,11 @@ input[type=text], select, textarea {
 
   .main-contact-l {
     width: 50%;
+    padding: 10px;
   }
 
   .main-contact-r {
     width: 50%;
+    padding: 20px;
+    font-size: 25px;
   }
