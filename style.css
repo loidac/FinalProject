@@ -54,14 +54,6 @@ li {
     padding-right: 10px;
 }
 
-/* I need to fix this and the nav -changed*/
-/* main {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: #a8697a;
-} */
-
 #woman-img {
     /* width: 50%; */
     /* height: 90%; */
@@ -108,16 +100,6 @@ h1 {
     margin-top: 2px;
 }
 
-p {
-    /* font-family: 'Libre Baskerville', serif; */
-        /* font-weight: bold; */
-    /* font-size: 1.8em;
-    padding-left: 60px;
-    padding-right: 10px;
-    margin-top: 10px;
-    text-align: center */
-}
-
 .p-index {
     font-size: 1.8em;
     padding-left: 30px;
@@ -127,10 +109,6 @@ p {
 }
 
 .comps {
-    /* display: flex;
-    flex-direction: row;
-    padding: 5px 50px 2px 50px;
-    margin-top: 10px; */
     margin-top: 100px;
 
 }
@@ -172,19 +150,6 @@ a img{
 .icons-socmed {
     padding-bottom: 10px;
 }
-/* responsive styling for index-html */
-
-/* @media (max-width: 40px) {
-    h1, h2, p { font-size: 10px;}
-} */
-/* @media (min-height: 50px) {
-.intro {font-size: 10px; }
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-} */
 
 /* about-html main styling */
 
@@ -238,24 +203,6 @@ img {
     border-style: solid;
     margin: 10px 10px 10px 20px;
 }
-/* .top{
-    width: 33%;
-}
-
-.bottom-left {
-    width: 33%;
-}
-
-.bottom-right {
-    width: 33%;
-} */
-
-/* .fam-pix {
-    position: relative;
-    filter: drop-shadow(0 0 10px);
-    perspective: 100px;
-} */
-
 
 /* contact-page styling*/
 
@@ -265,13 +212,6 @@ img {
     flex-direction: column;
     align-items: flex-start;
 }
-
-/* .cust-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px 0 10px 20px;
-} */
 
 .p-info {
     display: flex;
@@ -284,34 +224,11 @@ img {
     height: 50px;
 }
 
-/* .sub-btn {
-    display: flex;
-    flex-direction: row;
-    margin-left: 20px;
-}
-
-.cont-p {
-    display: flex;
-    flex-direction: column;
-    font-size: smaller;
-    font-family: 'Libre Baskerville', serif; 
-    padding-bottom: 16em;
-    text-align: left;
-    padding-left: 20px;
-}
-
-.contact-form {
-    font-family: 'Libre Baskerville', serif;
-} */
-
     /* About page carousel styling  */
 
 .fampix {
     box-sizing: border-box;
     position: relative;
-    /* display: flex;
-    flex-direction: column;
-    align-items: flex-start; */
     }
 img {
     vertical-align: middle;
@@ -358,15 +275,6 @@ img {
     position: absolute;
     top: 0;
 }
-/* container for image text-sinukatak ti new caption */
-/* .caption-fampix {
-    text-align: center;
-    background-color: #010000;
-    padding: 2px 16px;
-    margin-bottom: -100;
-    color: white;
-    font-size: .5em;
-} */
 
 /* new caption */
 #caption {
@@ -393,23 +301,11 @@ img {
     padding-bottom: 0!important;
 }
 .caption-black {
+    font-size: 2em;
     color:whitesmoke!important;
     background-color: rgb(194, 31, 131)!important;
     font-weight: bold;
 }
-
-/* .caption-container:before {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.caption-container:after {
-    content: "";
-    display: table;
-    clear: both;
-} */
-
 
 
 .row:after {
