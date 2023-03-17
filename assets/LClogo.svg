@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="115.39565mm"
+   height="56.718506mm"
+   viewBox="0 0 115.39565 56.718506"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="LClogo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.72515432"
+     inkscape:cx="223.40072"
+     inkscape:cy="273.73484"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="1911"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-45.901991,-76.425826)">
+    <path
+       id="path327"
+       style="font-size:78.3403px;font-family:Chonburi;-inkscape-font-specification:Chonburi;stroke-width:1.46888;fill:#ffffff"
+       d="m 49.259009,77.36582 v 1.56683 l 2.898531,0.626835 c 0.783402,0.15668 1.279374,0.33938 1.488281,0.548287 0.261135,0.208907 0.391707,0.600626 0.391707,1.175122 V 98.513367 H 70.018982 V 81.361442 c 0,-0.574495 0.104252,-0.966214 0.313159,-1.175122 0.261135,-0.208907 0.783428,-0.391606 1.56683,-0.548287 l 3.368786,-0.705383 v -1.56683 z m 4.778519,35.74252 v 15.17892 c 0,0.57449 -0.130572,0.96622 -0.391707,1.17512 -0.208907,0.20891 -0.704879,0.39161 -1.488281,0.54829 l -2.898531,0.62683 v 1.56683 h 47.317525 v -15.58974 h -2.193665 c -1.201216,3.49919 -2.297928,6.11014 -3.290238,7.83363 -0.940082,1.72348 -2.272137,3.05553 -3.995622,3.99562 -1.723485,0.94008 -4.125929,1.41025 -7.207312,1.41025 h -9.870715 v -16.74575 z" />
+    <path
+       id="path329"
+       style="font-size:78.3403px;font-family:Chonburi;-inkscape-font-specification:Chonburi;stroke-width:1.46888;fill:#ffffff"
+       d="m 134.41453,76.425826 c -9.08746,0 -16.45118,2.24555 -22.09167,6.737056 -4.44437,3.530574 -7.11974,8.648664 -8.02948,15.350485 h 16.95813 c 0.26692,-6.024246 1.25771,-10.674882 2.97863,-13.940235 2.08907,-3.91701 5.5103,-5.87561 10.26294,-5.87561 4.12592,0 7.41605,1.357859 9.87072,4.073653 2.50688,2.663568 4.4918,6.215368 5.95416,10.654647 h 2.19314 l 1.09709,-13.47463 c -2.03684,-0.992309 -4.83101,-1.827875 -8.38243,-2.506824 -3.55142,-0.678948 -7.15535,-1.018542 -10.81123,-1.018542 z m -29.56615,36.682514 c 1.24178,5.63277 3.75781,10.01472 7.55251,13.14183 5.6405,4.59597 12.84783,6.89416 21.62194,6.89416 4.43927,0 8.48704,-0.70499 12.14293,-2.11512 3.7081,-1.46235 6.71129,-3.26457 9.00926,-5.40587 l -1.56683,-1.72341 c -2.08907,1.67126 -4.30882,2.97699 -6.65902,3.91707 -2.29798,0.94008 -4.88312,1.41025 -7.7556,1.41025 -6.68503,0 -11.35935,-2.24555 -14.02292,-6.73705 -1.43886,-2.45454 -2.4855,-5.58614 -3.14709,-9.38186 z" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02716px;line-height:0;font-family:Chonburi;-inkscape-font-specification:Chonburi;letter-spacing:3.06387px;fill:#ffffff;stroke-width:0.131759"
+       x="44.893806"
+       y="109.22258"
+       id="text361"><tspan
+         sodipodi:role="line"
+         id="tspan359"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';stroke-width:0.131759;fill:#ffffff"
+         x="44.893806"
+         y="109.22258"
+         dx="0.39399406">LOIDA CHRISTENSEN</tspan></text>
+  </g>
+</svg>
