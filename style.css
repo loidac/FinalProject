@@ -46,35 +46,37 @@ ul {
 
 .logo {
     width: 15%;
-    padding: 5px;
+    padding: 5px 0 5px 10px;
 }
 
 li {
     display: inline-block;
     padding-right: 10px;
 }
+.index-right {
+    width: 50%;
+    padding: 0 30px 0 20px;
+}
 
 #woman-img {
-    /* width: 50%; */
-    /* height: 90%; */
     display: block;
-    max-width: 50%;
+    width: 50%;
     /* max-height: 50%; */
     border-radius: 50%;
-    /* min-height: 100vh; */
-    /* object-fit: fill; */
     border: 5px solid rgba(163, 6, 102, 0.623)!important;
 
 }
 
-
+.text-index {
+    width: 50%;
+}
 aside {
     display: flex;
     flex-direction: row;
     align-items: center;
     /* background-image: url(assets/background-petals.jpg); */
     /* background-color: #dfaad4; */
-    min-height: 100vh;
+    /* min-height: 100vh; */
     /* color: rgb(216, 37, 133); */
     /* color: #382E33; */
     /* color: rgb(72, 10, 48); */
@@ -83,7 +85,7 @@ aside {
 }
 
 .intro {
-    padding: 0 100px 0 80px;
+    padding: 0 60px 0 50px;
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -91,7 +93,7 @@ aside {
 
 h2 {
     font-size: 3em;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-left: 10px;
 }
 
@@ -105,14 +107,14 @@ h1 {
 
 .p-index {
     font-size: 1.8em;
-    padding-left: 30px;
+    padding-left: 20px;
     font-size: 1.9em;
     text-align: center;
     
 }
 
 .comps {
-    margin-top: 100px;
+    margin-top: 70px;
 
 }
 
@@ -145,7 +147,7 @@ a img{
 }
 
 .copyright {
-    padding-top: 10px;
+    padding: 10px 0 0 10px;
     color: white;
 }
 
